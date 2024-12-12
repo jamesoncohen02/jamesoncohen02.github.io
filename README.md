@@ -6,8 +6,8 @@
 
 This project is an **interactive data visualization dashboard** that explores Formula One pit stop data from 2014-2024 (the "hybrid era" of Formula One). It allows users to analyze average pit stop durations across different tracks, constructors (teams), and years. The dashboard includes:
 - A **Globe Visualization** showing average pit stop times by track location.
-- A **Bar Chart** comparing average pit stop durations by constructor.
-- A **Scatterplot** visualizing the relationship between pit stop durations and final race positions.
+- A **Bar Chart** comparing average pit stop durations by constructor. The colors of each bar are matched to the team colors of the actual constructors, for those who are familiar with the constructors in Formula One.
+- A **Scatter Plot** visualizing the relationship between pit stop durations and final race positions. Again, the colors of the circles in the scatter plot are the same as the team colors of the constructor who achieved that pit stop time.
 
 ### Project Backround / Inspiration
 
@@ -26,4 +26,4 @@ With that being said, I do use a couple libraries in my code (though not as dire
 
 The main file to view when viewing my submission is ``index.html``. If a viewer opens ``index.html`` on their local browser, they should be able to view my interactive EDA.
 
-Additionally, my final project is hosted on [this website link](). One can view my 2-minute screencast walking through my final project at [this link]().
+Additionally, my final project is hosted on [https://jamesoncohen02.github.io/](https://jamesoncohen02.github.io/). One can view my 2-minute screencast walking through my final project at [this link]().
