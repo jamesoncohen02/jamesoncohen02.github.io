@@ -26,4 +26,4 @@ With that being said, I do use a couple libraries in my code (though not as dire
 
 The main file to view when viewing my submission is ``index.html``. If a viewer opens ``index.html`` on their local browser, they should be able to view my interactive EDA.
 
-Additionally, my final project is hosted on [https://jamesoncohen02.github.io/](https://jamesoncohen02.github.io/). One can view my 2-minute screencast walking through my final project at [this link]().
+Additionally, my final project is hosted on [https://jamesoncohen02.github.io/](https://jamesoncohen02.github.io/). One can view my 2-minute screencast walking through my final project at [this link](https://drive.google.com/file/d/15l8xqVwZL2_1HUIjA0enlj8uMTmsEDVe/view?usp=sharing).
