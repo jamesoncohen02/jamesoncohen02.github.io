@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f5f5f5;
+}
+
+header{
+    font-weight: bold; /* Darker gray for header */
+    color: navy;
+}
+
+.title-box {
+    background-color: #d0d0d0; /* Darker gray for the title box */
+    border-radius: 8px; /* Rounded corners */
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.container {
+    height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#globeVis {
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none; /* Prevent tooltip from blocking mouse events */
+    font-size: 12px;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.x-axis-label, .y-axis-label {
+    font-size: 12px;
+}
+
+#time-period-slider {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 15px; /* Reduce height */
+}
+
+.noUi-target {
+    height: 10px; /* Make the slider itself shorter */
+}
+
+.noUi-connect {
+    background: navy;
+}
+
+.noUi-handle {
+    background: lightsteelblue;
+    border: navy;
+    height: 15px;
+    width: 15px;
+}
+
+.slider-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #333;
+}
+
+.start-label {
+    color: navy;
+    font-weight: bold;
+    font-size: 14px;
+    left: -60px;
+}
+
+.end-label {
+    color: navy;
+    font-weight: bold;
+    font-size: 14px;
+    right: -60px;
+}
